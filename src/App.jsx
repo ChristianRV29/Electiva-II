@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles/index.css';
 
-function App() {
+const App = () => {
   return (
    <div>
    </div>
