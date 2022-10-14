@@ -1,3 +1,10 @@
+import axios from 'axios';
+
+const pokemonAPI = axios.create({
+    baseURL: 'https://pokeapi.co/api',
+})
+
+export default pokemonAPI;
 
 /*
     POKEMON API (BASE URL)
@@ -11,5 +18,4 @@
 
     FOR GETTING A POKEMON DATA BY ID
     https://pokeapi.co/api/v2/pokemon/${id}
-
 */
